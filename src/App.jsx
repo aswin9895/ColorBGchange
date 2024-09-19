@@ -13,6 +13,7 @@ function color(clr){
   return (
     // jsx code
     <>
+      <h1 className='text-center text-dark fw-bolder mt-5'>Background Color Change</h1>
       <div className={myStyle.divstyle}>
         <button onClick={()=>color("red")} className={myStyle.redbtn}></button>
         <button onClick={()=>color("yellow")} className={myStyle.yellowbtn}></button>
